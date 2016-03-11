@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80914121A1BAE1D00973C40 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80914111A1BAE1D00973C40 /* ResultViewController.m */; };
+		C80DD4261A1238CF00C4CAFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C80DD4251A1238CF00C4CAFE /* main.m */; };
+		C80DD4291A1238CF00C4CAFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C80DD4281A1238CF00C4CAFE /* AppDelegate.m */; };
+		C80DD42C1A1238CF00C4CAFE /* KukuKube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C80DD42A1A1238CF00C4CAFE /* KukuKube.xcdatamodeld */; };
+		C80DD42F1A1238CF00C4CAFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80DD42E1A1238CF00C4CAFE /* ViewController.m */; };
+		C80DD4321A1238CF00C4CAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80DD4301A1238CF00C4CAFE /* Main.storyboard */; };
+		C80DD4341A1238CF00C4CAFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80DD4331A1238CF00C4CAFE /* Images.xcassets */; };
+		C80DD4371A1238CF00C4CAFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80DD4351A1238CF00C4CAFE /* LaunchScreen.xib */; };
+		C80DD4431A1238CF00C4CAFE /* KukuKubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C80DD4421A1238CF00C4CAFE /* KukuKubeTests.m */; };
+		C80DD44E1A12397000C4CAFE /* ButtonGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C80DD44D1A12397000C4CAFE /* ButtonGridView.m */; };
+		C80DDEE21A1501590078DA58 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80DDEE11A1501590078DA58 /* PlayViewController.m */; };
+		C82362CA1AD9065000010EC7 /* iconimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C82362C91AD9065000010EC7 /* iconimage.png */; };
+		C8291E051A20B48C00D4A548 /* beep2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C8291E041A20B48C00D4A548 /* beep2.wav */; };
+		C8302B711A7014BA00F05A9E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8302B701A7014BA00F05A9E /* StoreKit.framework */; };
+		C83630B41A29AC1E00E99660 /* beep6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C83630B21A29AC1E00E99660 /* beep6.mp3 */; };
+		C83F37111A77D04E008D0D54 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83F37101A77D04E008D0D54 /* iAd.framework */; };
+		C85797201AD0FFBE00DD00A0 /* SettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C857971F1AD0FFBE00DD00A0 /* SettingsTableViewCell.m */; };
+		C86400F21ADA47B50007A6E6 /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C86400F11ADA47B50007A6E6 /* CustomIOSAlertView.m */; };
+		C88089A51A7210E800BE14C3 /* Music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88089A01A7210E800BE14C3 /* Music2.mp3 */; };
+		C8AC5AB01ACFAEE200D631D1 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC5AAF1ACFAEE200D631D1 /* HomeTableViewCell.m */; };
+		C8AC5AB31ACFE39F00D631D1 /* PlayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC5AB21ACFE39F00D631D1 /* PlayTableViewCell.m */; };
+		C8CEE0641A3C696F00BCDE9B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CEE0631A3C696F00BCDE9B /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C80DD43D1A1238CF00C4CAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80DD4181A1238CF00C4CAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80DD41F1A1238CF00C4CAFE;
+			remoteInfo = KukuKube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80914101A1BAE1D00973C40 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		C80914111A1BAE1D00973C40 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		C80DD4201A1238CF00C4CAFE /* KukuKube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KukuKube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80DD4241A1238CF00C4CAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80DD4251A1238CF00C4CAFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C80DD4271A1238CF00C4CAFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C80DD4281A1238CF00C4CAFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C80DD42B1A1238CF00C4CAFE /* KukuKube.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KukuKube.xcdatamodel; sourceTree = "<group>"; };
+		C80DD42D1A1238CF00C4CAFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C80DD42E1A1238CF00C4CAFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C80DD4311A1238CF00C4CAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C80DD4331A1238CF00C4CAFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C80DD4361A1238CF00C4CAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C80DD43C1A1238CF00C4CAFE /* KukuKubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KukuKubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80DD4411A1238CF00C4CAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80DD4421A1238CF00C4CAFE /* KukuKubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KukuKubeTests.m; sourceTree = "<group>"; };
+		C80DD44C1A12397000C4CAFE /* ButtonGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonGridView.h; sourceTree = "<group>"; };
+		C80DD44D1A12397000C4CAFE /* ButtonGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonGridView.m; sourceTree = "<group>"; };
+		C80DDEE01A1501590078DA58 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		C80DDEE11A1501590078DA58 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		C82362C91AD9065000010EC7 /* iconimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconimage.png; sourceTree = "<group>"; };
+		C8291E041A20B48C00D4A548 /* beep2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep2.wav; sourceTree = "<group>"; };
+		C8302B701A7014BA00F05A9E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C83630B21A29AC1E00E99660 /* beep6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep6.mp3; sourceTree = "<group>"; };
+		C83F37101A77D04E008D0D54 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C857971E1AD0FFBE00DD00A0 /* SettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewCell.h; sourceTree = "<group>"; };
+		C857971F1AD0FFBE00DD00A0 /* SettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewCell.m; sourceTree = "<group>"; };
+		C86400F01ADA47B50007A6E6 /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
+		C86400F11ADA47B50007A6E6 /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
+		C88089A01A7210E800BE14C3 /* Music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music2.mp3; sourceTree = "<group>"; };
+		C8AC5AAE1ACFAEE200D631D1 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		C8AC5AAF1ACFAEE200D631D1 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		C8AC5AB11ACFE39F00D631D1 /* PlayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayTableViewCell.h; sourceTree = "<group>"; };
+		C8AC5AB21ACFE39F00D631D1 /* PlayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayTableViewCell.m; sourceTree = "<group>"; };
+		C8CEE0631A3C696F00BCDE9B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80DD41D1A1238CF00C4CAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83F37111A77D04E008D0D54 /* iAd.framework in Frameworks */,
+				C8302B711A7014BA00F05A9E /* StoreKit.framework in Frameworks */,
+				C8CEE0641A3C696F00BCDE9B /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80DD4391A1238CF00C4CAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80DD4171A1238CF00C4CAFE = {
+			isa = PBXGroup;
+			children = (
+				C83F37101A77D04E008D0D54 /* iAd.framework */,
+				C8302B701A7014BA00F05A9E /* StoreKit.framework */,
+				C8CEE0631A3C696F00BCDE9B /* GameKit.framework */,
+				C80DD4221A1238CF00C4CAFE /* KukuKube */,
+				C80DD43F1A1238CF00C4CAFE /* KukuKubeTests */,
+				C80DD4211A1238CF00C4CAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C80DD4211A1238CF00C4CAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80DD4201A1238CF00C4CAFE /* KukuKube.app */,
+				C80DD43C1A1238CF00C4CAFE /* KukuKubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80DD4221A1238CF00C4CAFE /* KukuKube */ = {
+			isa = PBXGroup;
+			children = (
+				C86400F01ADA47B50007A6E6 /* CustomIOSAlertView.h */,
+				C86400F11ADA47B50007A6E6 /* CustomIOSAlertView.m */,
+				C80DD4271A1238CF00C4CAFE /* AppDelegate.h */,
+				C80DD4281A1238CF00C4CAFE /* AppDelegate.m */,
+				C80DD42D1A1238CF00C4CAFE /* ViewController.h */,
+				C80DD42E1A1238CF00C4CAFE /* ViewController.m */,
+				C80DD4301A1238CF00C4CAFE /* Main.storyboard */,
+				C80DD4331A1238CF00C4CAFE /* Images.xcassets */,
+				C80DD4351A1238CF00C4CAFE /* LaunchScreen.xib */,
+				C80DD42A1A1238CF00C4CAFE /* KukuKube.xcdatamodeld */,
+				C88089A01A7210E800BE14C3 /* Music2.mp3 */,
+				C80DD4231A1238CF00C4CAFE /* Supporting Files */,
+				C80DD44C1A12397000C4CAFE /* ButtonGridView.h */,
+				C80DD44D1A12397000C4CAFE /* ButtonGridView.m */,
+				C80DDEE01A1501590078DA58 /* PlayViewController.h */,
+				C80DDEE11A1501590078DA58 /* PlayViewController.m */,
+				C80914101A1BAE1D00973C40 /* ResultViewController.h */,
+				C80914111A1BAE1D00973C40 /* ResultViewController.m */,
+				C8AC5AAE1ACFAEE200D631D1 /* HomeTableViewCell.h */,
+				C8AC5AAF1ACFAEE200D631D1 /* HomeTableViewCell.m */,
+				C8AC5AB11ACFE39F00D631D1 /* PlayTableViewCell.h */,
+				C8AC5AB21ACFE39F00D631D1 /* PlayTableViewCell.m */,
+				C857971E1AD0FFBE00DD00A0 /* SettingsTableViewCell.h */,
+				C857971F1AD0FFBE00DD00A0 /* SettingsTableViewCell.m */,
+			);
+			path = KukuKube;
+			sourceTree = "<group>";
+		};
+		C80DD4231A1238CF00C4CAFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82362C91AD9065000010EC7 /* iconimage.png */,
+				C83630B21A29AC1E00E99660 /* beep6.mp3 */,
+				C8291E041A20B48C00D4A548 /* beep2.wav */,
+				C80DD4241A1238CF00C4CAFE /* Info.plist */,
+				C80DD4251A1238CF00C4CAFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C80DD43F1A1238CF00C4CAFE /* KukuKubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C80DD4421A1238CF00C4CAFE /* KukuKubeTests.m */,
+				C80DD4401A1238CF00C4CAFE /* Supporting Files */,
+			);
+			path = KukuKubeTests;
+			sourceTree = "<group>";
+		};
+		C80DD4401A1238CF00C4CAFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C80DD4411A1238CF00C4CAFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80DD41F1A1238CF00C4CAFE /* KukuKube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80DD4461A1238CF00C4CAFE /* Build configuration list for PBXNativeTarget "KukuKube" */;
+			buildPhases = (
+				C80DD41C1A1238CF00C4CAFE /* Sources */,
+				C80DD41D1A1238CF00C4CAFE /* Frameworks */,
+				C80DD41E1A1238CF00C4CAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KukuKube;
+			productName = KukuKube;
+			productReference = C80DD4201A1238CF00C4CAFE /* KukuKube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C80DD43B1A1238CF00C4CAFE /* KukuKubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80DD4491A1238CF00C4CAFE /* Build configuration list for PBXNativeTarget "KukuKubeTests" */;
+			buildPhases = (
+				C80DD4381A1238CF00C4CAFE /* Sources */,
+				C80DD4391A1238CF00C4CAFE /* Frameworks */,
+				C80DD43A1A1238CF00C4CAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80DD43E1A1238CF00C4CAFE /* PBXTargetDependency */,
+			);
+			name = KukuKubeTests;
+			productName = KukuKubeTests;
+			productReference = C80DD43C1A1238CF00C4CAFE /* KukuKubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80DD4181A1238CF00C4CAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Shibin;
+				TargetAttributes = {
+					C80DD41F1A1238CF00C4CAFE = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = DHWTN4KSHZ;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					C80DD43B1A1238CF00C4CAFE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C80DD41F1A1238CF00C4CAFE;
+					};
+				};
+			};
+			buildConfigurationList = C80DD41B1A1238CF00C4CAFE /* Build configuration list for PBXProject "KukuKube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C80DD4171A1238CF00C4CAFE;
+			productRefGroup = C80DD4211A1238CF00C4CAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80DD41F1A1238CF00C4CAFE /* KukuKube */,
+				C80DD43B1A1238CF00C4CAFE /* KukuKubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80DD41E1A1238CF00C4CAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80DD4321A1238CF00C4CAFE /* Main.storyboard in Resources */,
+				C82362CA1AD9065000010EC7 /* iconimage.png in Resources */,
+				C88089A51A7210E800BE14C3 /* Music2.mp3 in Resources */,
+				C83630B41A29AC1E00E99660 /* beep6.mp3 in Resources */,
+				C80DD4371A1238CF00C4CAFE /* LaunchScreen.xib in Resources */,
+				C8291E051A20B48C00D4A548 /* beep2.wav in Resources */,
+				C80DD4341A1238CF00C4CAFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80DD43A1A1238CF00C4CAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80DD41C1A1238CF00C4CAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80DD42C1A1238CF00C4CAFE /* KukuKube.xcdatamodeld in Sources */,
+				C8AC5AB31ACFE39F00D631D1 /* PlayTableViewCell.m in Sources */,
+				C85797201AD0FFBE00DD00A0 /* SettingsTableViewCell.m in Sources */,
+				C80914121A1BAE1D00973C40 /* ResultViewController.m in Sources */,
+				C80DD4291A1238CF00C4CAFE /* AppDelegate.m in Sources */,
+				C80DD42F1A1238CF00C4CAFE /* ViewController.m in Sources */,
+				C80DD4261A1238CF00C4CAFE /* main.m in Sources */,
+				C8AC5AB01ACFAEE200D631D1 /* HomeTableViewCell.m in Sources */,
+				C86400F21ADA47B50007A6E6 /* CustomIOSAlertView.m in Sources */,
+				C80DDEE21A1501590078DA58 /* PlayViewController.m in Sources */,
+				C80DD44E1A12397000C4CAFE /* ButtonGridView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80DD4381A1238CF00C4CAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80DD4431A1238CF00C4CAFE /* KukuKubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C80DD43E1A1238CF00C4CAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80DD41F1A1238CF00C4CAFE /* KukuKube */;
+			targetProxy = C80DD43D1A1238CF00C4CAFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C80DD4301A1238CF00C4CAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80DD4311A1238CF00C4CAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C80DD4351A1238CF00C4CAFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80DD4361A1238CF00C4CAFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80DD4441A1238CF00C4CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80DD4451A1238CF00C4CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80DD4471A1238CF00C4CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shibin S (HT6N7H85E8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shibin S (HT6N7H85E8)";
+				INFOPLIST_FILE = KukuKube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cc128d5d-4bb4-4ce0-9fc3-fd207f65796f";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80DD4481A1238CF00C4CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shibin S (DHWTN4KSHZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shibin S (DHWTN4KSHZ)";
+				INFOPLIST_FILE = KukuKube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cc128d5d-4bb4-4ce0-9fc3-fd207f65796f";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C80DD44A1A1238CF00C4CAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KukuKubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KukuKube.app/KukuKube";
+			};
+			name = Debug;
+		};
+		C80DD44B1A1238CF00C4CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KukuKubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KukuKube.app/KukuKube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80DD41B1A1238CF00C4CAFE /* Build configuration list for PBXProject "KukuKube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80DD4441A1238CF00C4CAFE /* Debug */,
+				C80DD4451A1238CF00C4CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80DD4461A1238CF00C4CAFE /* Build configuration list for PBXNativeTarget "KukuKube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80DD4471A1238CF00C4CAFE /* Debug */,
+				C80DD4481A1238CF00C4CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80DD4491A1238CF00C4CAFE /* Build configuration list for PBXNativeTarget "KukuKubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80DD44A1A1238CF00C4CAFE /* Debug */,
+				C80DD44B1A1238CF00C4CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C80DD42A1A1238CF00C4CAFE /* KukuKube.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C80DD42B1A1238CF00C4CAFE /* KukuKube.xcdatamodel */,
+			);
+			currentVersion = C80DD42B1A1238CF00C4CAFE /* KukuKube.xcdatamodel */;
+			path = KukuKube.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C80DD4181A1238CF00C4CAFE /* Project object */;
+}
